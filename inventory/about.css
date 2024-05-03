@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+.about-page{
+    height: 100%;
+}
+
+body{
+    background: #161A30;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #F0ECE5;
+    text-transform: capitalize;
+}
+.header ul{
+    display: flex;
+    gap: 4rem;
+}
+
+.header ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #F0ECE5;
+    padding: 7px 20px;
+}
+
+.menu ul li a.active{
+    background: #F0ECE5;
+    color: #161A30;
+}
+
+
+.about-container{
+    padding: 2rem 12%;
+}
+
+.about-content{
+    padding-top: 5rem;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.title{
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F0ECE5;
+}
+
+
+.description{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #F0ECE5;
+    line-height: 1.5rem;
+}
+
+
+.about-text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+}
